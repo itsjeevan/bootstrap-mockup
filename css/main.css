@@ -1,0 +1,58 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Martel:wght@900&display=swap');
+/* Fonts */
+
+
+/* Global */
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Martel', serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+/* Global */
+
+
+/* Pianist */
+.pianist {
+    display: flex;
+    flex-direction: row;
+    background-color: #f7f7f7;
+    width: fit-content;
+    margin: 3rem 0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.pianist img {
+    width: 250px;
+}
+
+.pianist-info {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3rem;
+}
+
+.pianist:hover {
+    background-color: #4287f5;
+    color: white;
+}
+/* Pianist */

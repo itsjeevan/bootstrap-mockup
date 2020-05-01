@@ -1,10 +1,12 @@
 a.card {
-    color: inherit;
-    text-decoration: inherit;
-    transition: background-color 0.5s ease, color 0.5s ease;
+  color: inherit;
+  text-decoration: inherit;
+  -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 a.card:hover {
-    background-color: #4287f5;
-    color: white;
+  background-color: #4287f5;
+  color: white;
 }
+/*# sourceMappingURL=custom.css.map */

@@ -5,16 +5,6 @@ $blue: #4287f5;
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
-    
-    a {
-        color: black;
-    }
-    
-    a:hover {
-        color: inherit;
-        text-decoration: none;
-        border-bottom: 2px solid $blue;
-    }
 }
 
 h2 {
@@ -22,27 +12,37 @@ h2 {
     font-weight: bold;
 }
 
+.h1-link {
+    color: inherit;
+}
+
+.h1-link:hover {
+    border-bottom: 2px solid $blue;
+    color: inherit;
+    text-decoration: none;
+}
+
 /* Card */
-a.card {
-    text-decoration: inherit;
+.card {
     color: inherit;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-a.card:hover {
-    color: white;
+.card:hover {
     background-color: $blue;
+    color: white;
+    text-decoration: none;
 }
 
 /* UI Elements */
 .top-bar {
-    height: 0.5rem;
     background-color: $blue;
+    height: 0.5rem;
 }
 
-.line {
-    height: 1px;
+.divider {
     background-color: lightgrey;
+    height: 1px;
 }
 
 /* Media Queries */

@@ -1,10 +1,7 @@
+// Variables
 $blue: #4287f5;
 
-.top-bar {
-    background-color: $blue;
-    height: 0.5rem;
-}
-
+/* Typography */
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -20,27 +17,35 @@ h1 {
     }
 }
 
-.line {
-    background-color: lightgrey;
-    height: 1px;
-}
-
-a.card {
-    color: inherit;
-    text-decoration: inherit;
-    transition: background-color 0.5s ease, color 0.5s ease;
-}
-
-a.card:hover {
-    background-color: $blue;
-    color: white;
-}
-
 h2 {
     font-size: 3rem;
     font-weight: bold;
 }
 
+/* Card */
+a.card {
+    text-decoration: inherit;
+    color: inherit;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+a.card:hover {
+    color: white;
+    background-color: $blue;
+}
+
+/* UI Elements */
+.top-bar {
+    height: 0.5rem;
+    background-color: $blue;
+}
+
+.line {
+    height: 1px;
+    background-color: lightgrey;
+}
+
+/* Media Queries */
 @media (max-width: 1199px) {
     .display-4 {
         font-size: 2.75rem;

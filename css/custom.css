@@ -1,8 +1,4 @@
-.top-bar {
-  background-color: #4287f5;
-  height: 0.5rem;
-}
-
+/* Typography */
 h1 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -18,28 +14,36 @@ h1 a:hover {
   border-bottom: 2px solid #4287f5;
 }
 
-.line {
-  background-color: lightgrey;
-  height: 1px;
-}
-
-a.card {
-  color: inherit;
-  text-decoration: inherit;
-  -webkit-transition: background-color 0.5s ease, color 0.5s ease;
-  transition: background-color 0.5s ease, color 0.5s ease;
-}
-
-a.card:hover {
-  background-color: #4287f5;
-  color: white;
-}
-
 h2 {
   font-size: 3rem;
   font-weight: bold;
 }
 
+/* Card */
+a.card {
+  text-decoration: inherit;
+  color: inherit;
+  -webkit-transition: background-color 0.5s ease, color 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+a.card:hover {
+  color: white;
+  background-color: #4287f5;
+}
+
+/* UI Elements */
+.top-bar {
+  height: 0.5rem;
+  background-color: #4287f5;
+}
+
+.line {
+  height: 1px;
+  background-color: lightgrey;
+}
+
+/* Media Queries */
 @media (max-width: 1199px) {
   .display-4 {
     font-size: 2.75rem;

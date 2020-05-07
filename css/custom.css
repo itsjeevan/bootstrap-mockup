@@ -33,14 +33,18 @@ h2 {
 }
 
 /* UI Elements */
+hr {
+  border: none;
+}
+
 .top-bar {
   background-color: #4287f5;
   height: 0.5rem;
 }
 
 .divider {
-  background-color: lightgrey;
-  height: 1px;
+  background-color: #e6e6e6;
+  height: 2px;
 }
 
 /* Media Queries */

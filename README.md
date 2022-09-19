@@ -1,3 +1,3 @@
 # Bootstrap Mockup
 
-A mockup site created using Bootstrap.
+A mockup website created using Bootstrap.
